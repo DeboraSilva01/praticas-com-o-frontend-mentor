@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    background-color: hsl(271, 54%, 67%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.Principal{
+    box-shadow: -15px 10px  hsl(271, 52%, 46%);
+    background-color:  hsl(0, 0%, 8%);
+    color: white;
+    padding: 2rem;
+    margin: 1rem;
+    width: 500px;
+    height: 600px;
+    text-align: center;
+    border-radius: 10px;
+}
+.Principal img{
+    margin-top: 5px;
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.Principal .nome{
+    font-size: 35x;
+    margin-bottom: 10px;
+}
+.Principal .endereco{
+    color: rgb(27, 170, 27);
+    font-size: 17px;
+    font-weight: 700;
+    margin: 5px, 5px;
+    margin-bottom: 10px;
+    
+}
+.Principal .descricao{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.Principal ul{
+    margin-top: 10px;
+}
+.Principal ul li{
+    margin-bottom: 10px;
+}
+
+
+.Principal ul li a{
+    display: block;
+    color: white;
+    font-size: 20px;
+    padding: 1rem;
+    font-weight: 600;
+    border-radius: .5rem;
+    background-color: hsl(0, 0%, 12%);
+}
+.Principal ul li a:hover{
+    cursor: pointer;
+    background-color: hsl(123, 68%, 46%);
+
+}
